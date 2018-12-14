@@ -52,3 +52,11 @@ body{
   border: none;
   cursor: pointer;
 }
+.footer {
+  border-top: 1px solid rgba(255,255,255, 0.5);
+  font-size: 1.3rem;
+  padding-top: 0.6rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}

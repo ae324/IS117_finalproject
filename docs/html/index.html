@@ -7,17 +7,16 @@
   <title></title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.5.0/css/all.css' integrity='sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU' crossorigin='anonymous'>
+  <link rel="manifest" href="../site.webmanifest">
+  <link rel="apple-touch-icon" href="../icon.png">
   <!-- Place favicon.ico in the root directory -->
-  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <link rel="stylesheet" href="css/normalize.css">
+
+  <link rel="stylesheet" href="../css/normalize.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/contact.css">
+  <link rel="stylesheet" href="../css/main.css">
 </head>
 
 <body>
@@ -30,7 +29,7 @@
 
   <div id="navbar">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Navbar</a>
+      <i  style='font-size:24px' class='fab'>&#xf179;</i>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
               aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -47,11 +46,12 @@
               Models
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="iphone5.html">IPhone 5 </a>
-              <a class="dropdown-item" href="iphone6.html"> IPhone 6 </a>
-              <a class="dropdown-item" href="iphone7.html">IPhone 7 </a>
-              <a class="dropdown-item" href="iphone8.html"> IPhone 8 </a>
-              <a class="dropdown-item" href="iphoneX.html">IPhone X </a>
+              <a class="dropdown-item" href="iphone5.html">iPhone 5 </a>
+              <a class="dropdown-item" href="#">iPhone SE </a>
+              <a class="dropdown-item" href="iphone6.html"> iPhone 6 </a>
+              <a class="dropdown-item" href="iphone7.html">iPhone 7 </a>
+              <a class="dropdown-item" href="iphone8.html"> iPhone 8 </a>
+              <a class="dropdown-item" href="iphoneX.html">iPhone X </a>
             </div>
           </li>
           <li class="nav-item dropdown">
@@ -61,7 +61,7 @@
               More
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#">IPhone Quiz</a>
+              <a class="dropdown-item" href="#">iPhone Quiz</a>
               <a class="dropdown-item" href="contact.html"> Contact Us</a>
             </div>
           </li>
@@ -75,43 +75,72 @@
       </div>
     </nav>
   </div>
-  <div class="container contact-form">
-    <div class="contact-image">
-      <img src="https://image.ibb.co/kUagtU/rocket_contact.png" alt="rocket_contact"/>
+  <div id="homepage_picture">
+
+    <img src="../img/people_using_iphone.jpg" height="450" width="900"/>
+  </div>
+  <div class="card-deck">
+    <div class="card">
+      <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">iPhone 5</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
+          This content is a little bit longer.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
     </div>
-    <form method="post">
-      <h3>Drop Us a Message</h3>
-      <div class="row">
-        <div class="col-md-6">
-          <div class="form-group">
-            <input type="text" name="txtName" class="form-control" placeholder="Your Name *" value="" />
-          </div>
-          <div class="form-group">
-            <input type="text" name="txtEmail" class="form-control" placeholder="Your Email *" value="" />
-          </div>
-          <div class="form-group">
-            <input type="text" name="txtPhone" class="form-control" placeholder="Your Phone Number *" value="" />
-          </div>
-          <div class="form-group">
-            <input type="submit" name="btnSubmit" class="btnContact" value="Send Message" />
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="form-group">
-            <textarea name="txtMsg" class="form-control" placeholder="Your Message *" style="width: 100%; height: 150px;"></textarea>
+    <div class="card">
+      <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">iPhone 5c</h5>
+        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">iPhone 5S</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
+          This card has even longer content than the first to show that equal height action.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+  <div id="subscribe_button">
+    <section class="newsletter">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="content">
+              <h2>SUBSCRIBE TO OUR NEWSLETTER</h2>
+              <div class="input-group">
+                <input type="email" class="form-control" placeholder="Enter your email">
+                <span class="input-group-btn">
+         <button class="btn" type="submit">Subscribe Now</button>
+         </span>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </form>
+    </section>
   </div>
-
   <div id="footer">
     <footer class="text-center">
       <p>Copyright Allison Eglow - <span id="annee"></span> ©  </p>
     </footer>
   </div>
-</div>
 
+
+
+</div>
 <!-- Add your site or application content here -->
 
 
@@ -124,8 +153,13 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
-<script src="js/main.js"></script>
+<script src="../js/main.js"></script>
+<script type="text/javascript">
+  var date = new Date();
+  var annee = date.getFullYear();
 
+  document.getElementById('annee').innerHTML = annee;
+</script>
 <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
 <script>
   window.ga = function () {
