@@ -13,7 +13,7 @@
   <link rel="manifest" href="../site.webmanifest">
   <link rel="apple-touch-icon" href="../img/icon.png">
   <!-- Place favicon.ico in the root directory -->
-
+  <link href='https://fonts.googleapis.com/css?family=Chicle' rel='stylesheet'>
   <link rel="stylesheet" href="../css/normalize.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -30,15 +30,14 @@
 
   <div id="navbar">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <i style='font-size:24px' class='fab'>&#xf179;</i>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-              aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+      <h1 style="font-family: Chicle,serif; font-size: 20px; color: #0062cc; margin-right: 20px"> Inner <br>Apple</br> </h1>
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            <a  class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="about.html">Our Team <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
@@ -56,7 +55,7 @@
             </div>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+            <a  class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
                data-toggle="dropdown"
                aria-haspopup="true" aria-expanded="false">
               More
@@ -70,50 +69,46 @@
         <nav class="navbar navbar-light bg-light">
           <form class="form-inline">
             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Search</button>
           </form>
         </nav>
       </div>
     </nav>
   </div>
-  <div id="homepage_picture">
 
-    <img src="../img/people_using_iphone.jpg" height="450" width="900"/>
+
+  <div id="homepage_picture">
+    <img src="../img/iphone.jpg"3 alt="iphone_image" height="450" width="900"/>
   </div>
-  <div class="card-deck">
-    <div class="card">
-      <img class="card-img-top" src=".../100px180/" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">iPhone 5</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
-          This content is a little bit longer.</p>
-      </div>
-      <div class="card-footer">
-        <small class="text-muted">Last updated 3 mins ago</small>
-      </div>
-    </div>
-    <div class="card">
-      <img class="card-img-top" src=".../100px180/" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">iPhone 5c</h5>
-        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-      </div>
-      <div class="card-footer">
-        <small class="text-muted">Last updated 3 mins ago</small>
+
+
+
+  <div class="card-deck" style="margin-left: 50px">
+    <div class="card border-primary mb-3" style="max-width: 18rem; ">
+      <div class="card-header">Header</div>
+      <div class="card-body text-primary">
+        <h5 class="card-title">Primary card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
       </div>
     </div>
-    <div class="card">
-      <img class="card-img-top" src=".../100px180/" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">iPhone 5S</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
-          This card has even longer content than the first to show that equal height action.</p>
+    <div class="card border-primary mb-3" style="max-width: 18rem;">
+      <div class="card-header">Header</div>
+      <div class="card-body text-primary">
+        <h5 class="card-title">Primary card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
       </div>
-      <div class="card-footer">
-        <small class="text-muted">Last updated 3 mins ago</small>
+    </div>
+    <div class="card border-primary mb-3" style="max-width: 18rem;">
+      <div class="card-header">Header</div>
+      <div class="card-body text-primary">
+        <h5 class="card-title">Primary card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
       </div>
     </div>
   </div>
+
+
+
   <div id="subscribe_button">
     <section class="newsletter">
       <div class="container">
@@ -133,11 +128,17 @@
       </div>
     </section>
   </div>
-  <div id="footer">
-    <footer class="text-center">
-      <p>Copyright Allison Eglow - <span id="annee"></span> © </p>
-    </footer>
-  </div>
+
+
+  <footer class="container-fluid text-center bg-lightgray">
+
+    <div class="copyrights" style="margin-top:25px;">
+      <p>Inner Apple © 2018, All Rights Reserved
+        <br>
+        <span>Web Design By: Allison Eglow</span></p>
+
+    </div>
+  </footer>
 
 
 </div>
@@ -154,12 +155,7 @@
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
 <script src="../js/main.js"></script>
-<script type="text/javascript">
-  var date = new Date();
-  var annee = date.getFullYear();
 
-  document.getElementById('annee').innerHTML = annee;
-</script>
 <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
 <script>
   window.ga = function () {
